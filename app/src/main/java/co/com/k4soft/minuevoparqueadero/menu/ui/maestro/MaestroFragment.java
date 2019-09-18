@@ -59,8 +59,12 @@ public class MaestroFragment extends Fragment implements Maestro.View {
     }
 
     private void onClickListenerAddTipo() {
-        Intent intent = new Intent(getActivity(), RegistroTipoVehiculoActivity.class);
-        startActivity(intent);
+        addTipo.setOnClickListener(view -> {
+            Intent intent = new Intent(getActivity(), RegistroTipoVehiculoActivity.class);
+            startActivity(intent);
+        });
+
+
     }
 
     private void initComponents() {
