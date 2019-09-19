@@ -2,11 +2,6 @@ package co.com.k4soft.minuevoparqueadero.menu;
 
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import android.view.View;
-
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -36,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         navigationView.bringToFront();
         navigationView.requestLayout();
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_maestro, R.id.nav_gallery, R.id.nav_slideshow,
+                R.id.nav_maestro, R.id.nav_movimiento, R.id.nav_slideshow,
                 R.id.nav_tools, R.id.nav_share, R.id.nav_send)
                 .setDrawerLayout(drawer)
                 .build();

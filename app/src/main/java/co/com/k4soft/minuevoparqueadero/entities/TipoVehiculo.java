@@ -6,7 +6,6 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import co.com.k4soft.minuevoparqueadero.persistence.table.Table;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 
@@ -22,7 +21,7 @@ public class TipoVehiculo {
     private String nombre;
     @ColumnInfo(name="tarifa")
     private double tarifa;
-    @ColumnInfo(name="activo")
+    @ColumnInfo(name="tv_activo")
     private Boolean activo;
 
     public TipoVehiculo(){

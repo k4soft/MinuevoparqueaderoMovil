@@ -6,13 +6,16 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+import co.com.k4soft.minuevoparqueadero.entities.MovimientoParqueadero;
 import co.com.k4soft.minuevoparqueadero.entities.TipoVehiculo;
+import co.com.k4soft.minuevoparqueadero.persistence.dao.MovimientoParqueaderoDAO;
 import co.com.k4soft.minuevoparqueadero.persistence.dao.TipoVehiculoDAO;
 import co.com.k4soft.minuevoparqueadero.persistence.util.DBParameter;
 
 
 @Database(entities = {
-        TipoVehiculo.class
+        TipoVehiculo.class,
+        MovimientoParqueadero.class
 }, version = DBParameter.DATA_BASE_VERSION, exportSchema = false)
 public abstract class DataBase  extends RoomDatabase {
 
@@ -33,6 +36,8 @@ public abstract class DataBase  extends RoomDatabase {
     }
 
     public abstract TipoVehiculoDAO geTipoVehiculoDAO();
+
+    public abstract MovimientoParqueaderoDAO getMovimientoParqueaderoDAO();
 
 
 }

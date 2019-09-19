@@ -20,4 +20,8 @@
     <string name="guardar">Guardar</string>
     <string name="requerido">Requerido</string>
     <string name="satisfactorio">La información se guardó satisfactoriamente</string>
+    <string name="placa">Placa</string>
+    <string name="ingreso">Ingreso</string>
+    <string name="salida">Salida</string>
+    <string name="configurar_tipo_vehiculo">Debe configurar los tipos de vehiculos inicialmente</string>
 </resources>
