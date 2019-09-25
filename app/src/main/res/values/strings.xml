@@ -24,4 +24,11 @@
     <string name="ingreso">Ingreso</string>
     <string name="salida">Salida</string>
     <string name="configurar_tipo_vehiculo">Debe configurar los tipos de vehiculos inicialmente</string>
+    <string name="item_seleccione">Seleccione</string>
+    <string name="tipo_vehiculo_requerido">El tipo de vehículo es requerido</string>
+    <string name="informacion_alamacenada_satisfactoriamente">La información se almacenó exitosamente</string>
+    <string name="yes_value_button">SI</string>
+    <string name="no_value_button">No</string>
+    <string name="confirm_message_guardar">¿Deseas guardar la información?</string>
+    <string name="confirm">Confirmar</string>
 </resources>
