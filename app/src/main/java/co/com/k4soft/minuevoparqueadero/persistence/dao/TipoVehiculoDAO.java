@@ -12,6 +12,9 @@ import co.com.k4soft.minuevoparqueadero.persistence.table.Table;
 
 @Dao
 public interface TipoVehiculoDAO {
+    @Query("SELECT * FROM "+Table.TABLA_TIPO_VEHICULO+ " WHERE id=:idTipoVehiculo")
+    TipoVehiculo findById(Integer idTipoVehiculo);
+
     @Query("SELECT * FROM "+ Table.TABLA_TIPO_VEHICULO)
     List<TipoVehiculo> listAll();
 

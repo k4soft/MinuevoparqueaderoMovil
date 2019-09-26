@@ -3,6 +3,7 @@ package co.com.k4soft.minuevoparqueadero.persistence.dao;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import java.util.List;
 
@@ -19,4 +20,6 @@ public interface MovimientoParqueaderoDAO {
     MovimientoParqueadero findByPlaca(String placa, Integer activo);
 
 
+    @Update
+    void update(MovimientoParqueadero movimientoParqueaderoConsulta);
 }

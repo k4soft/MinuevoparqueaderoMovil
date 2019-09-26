@@ -31,4 +31,7 @@
     <string name="no_value_button">No</string>
     <string name="confirm_message_guardar">¿Deseas guardar la información?</string>
     <string name="confirm">Confirmar</string>
+    <string name="tipo_vehiculo_lb">Tipo vehículo</string>
+    <string name="tiempoLb">Tiempo (hrs)</string>
+    <string name="valorPagarLb">Valor a Pagar:</string>
 </resources>
